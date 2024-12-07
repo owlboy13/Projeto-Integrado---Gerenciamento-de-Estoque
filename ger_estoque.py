@@ -1,6 +1,5 @@
 ﻿import pandas as pd
 
-#TESTE COMMIT
 # Carregar o banco de dados do Excel ou criar um novo caso não exista
 try:
     banco_de_dados = pd.read_excel("banco_de_dados.xlsx")
